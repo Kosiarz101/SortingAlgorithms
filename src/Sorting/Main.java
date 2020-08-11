@@ -13,10 +13,10 @@ public class Main {
         //fillTheArray(arr);
 	    printarray(arr);
 	    long tStart = System.nanoTime();
-        //Merge mr = new Merge();
-	    // mr.sort(arr, 0, arr.length - 1);
+        Merge mr = new Merge();
+        mr.sort(arr, 0, arr.length - 1);
         //Insertion.sort(arr);
-        Quick.sort(arr, 0, arr.length-1);
+        //Quick.sort(arr, 0, arr.length-1);
         long tEnd = System.nanoTime();
         long elapsedtime = tEnd - tStart;
         System.out.println("\n");
