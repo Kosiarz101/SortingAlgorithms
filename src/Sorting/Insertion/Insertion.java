@@ -1,5 +1,5 @@
 package Sorting.Insertion;
-//Worst Case O(n^2), Best Case O(n). It's faster than Bubble Sort.
+//Worst Case O(n^2), Average Case O(n^2), Best Case O(n). It's faster than Bubble Sort.
 public class Insertion {
     static int key, j;
     public static void sort(int[] table){

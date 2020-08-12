@@ -1,7 +1,7 @@
 package Sorting.Merge;
 //O(n*logn) in all cases
 public class Merge {
-    public void merge(int arr[], int a, int q, int b){
+    public static void merge(int arr[], int a, int q, int b){
         //ustalenie wielkosci tabel
         int n1 = q - a + 1;
         int n2 = b - q;
@@ -41,7 +41,7 @@ public class Merge {
             a2++;
         }
     }
-    public void sort(int arr[], int a, int b){
+    public static void sort(int arr[], int a, int b){
         if(a<b){
             //znajdywanie punktu srodkowego
             int q = (a+b)/2;

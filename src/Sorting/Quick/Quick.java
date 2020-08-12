@@ -1,5 +1,5 @@
 package Sorting.Quick;
-
+//Worst case O(n^2), Best and Average Case O(n*logn)
 public class Quick {
     public static int partition(int[] arr, int low, int high){
         int pivot = arr[high];
